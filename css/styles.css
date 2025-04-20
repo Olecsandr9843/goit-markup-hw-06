@@ -446,8 +446,14 @@ button {
   height: 112px;
   background: #f4f4fd;
   margin-bottom: 8px;
+  gap: 12px;
 }
 
+@media (max-width: 768px) {
+  .feature-icon-container {
+    display: none;
+  }
+}
 
 .feature-list {
   display: flex;
